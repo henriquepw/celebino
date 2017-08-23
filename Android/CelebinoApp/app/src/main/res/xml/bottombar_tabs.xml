@@ -1,0 +1,19 @@
+<tabs>
+    <tab
+        barColorWhenSelected="#EEEEEE"
+        icon="@drawable/ic_home"
+        id="@+id/tab_home"
+        title="Home" />
+    <tab
+        barColorWhenSelected="@color/primaryLight"
+        icon="@drawable/ic_flower"
+        id="@+id/tab_garden"
+        title="Jardim" />
+    <!--E3EEC3-->
+    <tab
+        barColorWhenSelected="@color/secondaryLight"
+        icon="@drawable/ic_water"
+        id="@+id/tab_air"
+        title="Ar-Condicionado" />
+    <!--80DEEA -->
+</tabs>

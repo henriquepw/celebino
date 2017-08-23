@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<properties>
+		<property name="name">Celebino-Service</property>
+		<property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} | %-5.5p |
+			%-10.10t | %-20.20C:%-5.5L | %msg%n</property>
+		<Property name="log-path">${sys:catalina.home}/logs</Property>
+		<!-- It will look like that: 2013-04-03 07:37:51.993 | WARN | main | lnetgateway.Server:56 
+			| My app is logging stuff -->
+	</properties>
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${pattern}" />
+		</Console>
+		<RollingFile name="RollingFile" fileName="${log-path}/${name}.log"
+			filePattern="${log-path}/$${date:yyyy-MM}/${name}-%d{yyyy-MM-dd}-%i.log.gz">
+			<PatternLayout>
+				<pattern>${pattern}</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy /><!-- Rotated everyday -->
+				<SizeBasedTriggeringPolicy size="100 MB" /> <!-- Or every 100 MB -->
+			</Policies>
+		</RollingFile>
+	</appenders>
+
+	<!-- 
+		OFF	0
+		FATAL	100
+		ERROR	200
+		WARN	300
+		INFO	400
+		DEBUG	500
+		TRACE	600
+		ALL		Integer.MAX_VALUE
+	 -->	<loggers>
+		<root level="INFO"> <!-- We log everything -->
+			<appender-ref ref="Console" /> <!-- To console -->
+			<appender-ref ref="RollingFile" /> <!-- And to a rotated file -->
+		</root>
+	</loggers>
+</configuration>

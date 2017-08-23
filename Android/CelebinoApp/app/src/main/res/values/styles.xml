@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+        <item name="android:icon">@color/icons</item>
+        <item name="android:divider">@color/divider</item>
+
+        <item name="colorButtonNormal">@color/primary</item>
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="android:textColor">@color/primaryText</item>
+
+    </style>
+
+    <style name="AppThemeSecondary" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/secondary</item>
+        <item name="colorPrimaryDark">@color/secondaryDark</item>
+        <item name="colorAccent">@color/primaryLight</item>
+
+        <item name="android:textColorPrimary">@color/secondaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+        <item name="android:icon">@color/icons</item>
+        <item name="android:divider">@color/divider</item>
+
+        <item name="colorButtonNormal">@color/secondary</item>
+        <item name="colorControlHighlight">@color/primaryLight</item>
+        <item name="android:textColor">@color/primaryText</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless.Colored</item>
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="colorAccent">@color/primaryText</item>
+    </style>
+
+    <style name="AppTheme.ButtonPrimary" parent="AppTheme">
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="colorButtonNormal">@color/primary</item>
+    </style>
+
+    <style name="AppTheme.ButtonSecondary" parent="AppTheme">
+        <item name="colorControlHighlight">@color/primaryLight</item>
+        <item name="colorButtonNormal">@color/secondary</item>
+    </style>
+
+</resources>
