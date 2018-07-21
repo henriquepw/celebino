@@ -1,8 +1,10 @@
-# Celebino - Graduation project in computer technician at IFPB, campus Campina Grande
+# Celebino - Graduation project in computer technician at IFPB, campus Campina Grande 
 
-#### [Documentation](https://drive.google.com/file/d/0B8KUsVYhoQaFRjU2ay1qd1I2MFo3TzhzakM0QXNUMFBIRVdN/view?usp=sharing) ####
+#### [![CodeFactor](https://www.codefactor.io/repository/github/mrh3nry/celebino/badge)](https://www.codefactor.io/repository/github/mrh3nry/celebino)
 
-#### Abstract ####
+#### [Documentation](https://drive.google.com/file/d/0B8KUsVYhoQaFRjU2ay1qd1I2MFo3TzhzakM0QXNUMFBIRVdN/view?usp=sharing)
+
+#### Abstract
 
   Water scarcity is impacting all the world, and though Brazil is considered the
 bigger hydric potency in the planet, with it it’s not different. Looking at the IFPB-CG, an
@@ -18,10 +20,10 @@ arduino, service and android client.
 Keywords: reuse, monitoring, air-conditioning, garden, android application, arduino,
 service.
   
-#### Project ####
+#### Project
   - [Celebino](https://github.com/Celebino)
   
-#### [Screenshots](https://github.com/MrH3nry/Celebino/tree/master/Design/Screenshots) ####
+#### [Screenshots](https://github.com/MrH3nry/Celebino/tree/master/Design/Screenshots)
 
 ![1](https://raw.githubusercontent.com/MrH3nry/Celebino/master/Design/Screenshots/1.png)
 
