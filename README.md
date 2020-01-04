@@ -2,7 +2,8 @@
   <img alt="Gatsby" src="./Design/logo22.png" width="100"/>
 </p>
 <h1 align="center">
-  Celebino<br/>Graduation project in computer technician at IFPB-CG
+  Celebino<br/>Graduation project in computer technician at 
+  <a href="http://www.ifpb.edu.br/campinagrande" alt="ifpb-cg">IFPB-CG</a>
 </h1>
 
 <p align="center">
