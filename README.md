@@ -36,8 +36,8 @@ service.
   
 ## :camera: [Screenshots](https://github.com/MrH3nry/Celebino/tree/master/Design/Screenshots)
 
-<section align="center">
+<p align="center">
   <img src="./Design/Screenshots/1.png" alt="Home" height="600"/><br/>
   <img src="./Design/Screenshots/3.png" alt="Home" height="600"/><br/>
   <img src="./Design/Screenshots/4.png" alt="Home" height="600"/>
-</section>
+</p>
