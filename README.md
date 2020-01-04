@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Gatsby" src="./Design/logo22.png" width="100"/>
+  <img alt="Icon" src="./Design/logo22.png" width="100"/>
 </p>
 <h1 align="center">
   Celebino<br/>Graduation project in computer technician at 
